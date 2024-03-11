@@ -30,6 +30,11 @@ public class PlayerMoveState : PlayerGroundedState
         
         player.SetVelocity(xInput * player.moveSpeed, rb.velocity.y);
 
+        if (player.IsWallDetected())
+        {
+            player.SetVelocity(rb.velocity.x, yInput * player.wallClimbSpeed);
+
+        }
 
         if (xInput == 0)
         {

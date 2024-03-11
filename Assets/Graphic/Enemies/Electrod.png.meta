@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 810a06b06906a8442bf8530514817783
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2116284030512875105
+    second: Electrod_0
+  - first:
+      213: -8593322330621284333
+    second: Electrod_1
+  - first:
+      213: 6611492969036396700
+    second: Electrod_2
+  - first:
+      213: 5045489150743845491
+    second: Electrod_3
+  - first:
+      213: 6307340889829546764
+    second: Electrod_4
+  - first:
+      213: 2312623859870794317
+    second: Electrod_5
+  - first:
+      213: -2246960995037785073
+    second: Electrod_6
+  - first:
+      213: 1320732486419703791
+    second: Electrod_7
+  - first:
+      213: -3018019745695434328
+    second: Electrod_8
+  - first:
+      213: 1229750204096236050
+    second: Electrod_9
+  - first:
+      213: -6443072061509385827
+    second: Electrod_10
+  - first:
+      213: 7024696374041683791
+    second: Electrod_11
+  - first:
+      213: -6624187251297155526
+    second: Electrod_12
+  - first:
+      213: 5038015305969356344
+    second: Electrod_13
+  - first:
+      213: -8096467186193885616
+    second: Electrod_14
+  - first:
+      213: -395625028227639936
+    second: Electrod_15
+  - first:
+      213: 9173997069618157438
+    second: Electrod_16
+  - first:
+      213: -4860141811781667863
+    second: Electrod_17
+  - first:
+      213: -533315492928838029
+    second: Electrod_18
+  - first:
+      213: -1378900848157126244
+    second: Electrod_19
+  - first:
+      213: 6677562687413973808
+    second: Electrod_20
+  - first:
+      213: -8197589919961766330
+    second: Electrod_21
+  - first:
+      213: -3846871889386258242
+    second: Electrod_22
+  - first:
+      213: 6368449954701731367
+    second: Electrod_23
+  - first:
+      213: 4148333866422605035
+    second: Electrod_24
+  - first:
+      213: 989466425250713771
+    second: Electrod_25
+  - first:
+      213: -1278698779252268871
+    second: Electrod_26
+  - first:
+      213: -3903740686588223401
+    second: Electrod_27
+  - first:
+      213: 5324867562487144479
+    second: Electrod_28
+  - first:
+      213: -2046151585530572065
+    second: Electrod_29
+  - first:
+      213: 1463234674897686872
+    second: Electrod_30
+  - first:
+      213: -1834695546834667244
+    second: Electrod_31
+  - first:
+      213: 982941552342548139
+    second: Electrod_32
+  - first:
+      213: 7239667581462639095
+    second: Electrod_33
+  - first:
+      213: 3172547643975132594
+    second: Electrod_34
+  - first:
+      213: -4400773944973062057
+    second: Electrod_35
+  - first:
+      213: 1710501716632225005
+    second: Electrod_36
+  - first:
+      213: 4960671395236403430
+    second: Electrod_37
+  - first:
+      213: 9185354435530180979
+    second: Electrod_38
+  - first:
+      213: 4534299872701834436
+    second: Electrod_39
+  - first:
+      213: -7267731454164558808
+    second: Electrod_40
+  - first:
+      213: -6809644184107181028
+    second: Electrod_41
+  - first:
+      213: 292442808123017855
+    second: Electrod_42
+  - first:
+      213: 4626169383934026128
+    second: Electrod_43
+  - first:
+      213: -8818143363992735530
+    second: Electrod_44
+  - first:
+      213: 3484296095951771348
+    second: Electrod_45
+  - first:
+      213: -5181903070275080519
+    second: Electrod_46
+  - first:
+      213: -98658179664010470
+    second: Electrod_47
+  - first:
+      213: 4435928088496523887
+    second: Electrod_48
+  - first:
+      213: 9179231141573818021
+    second: Electrod_49
+  - first:
+      213: -5453780119385581154
+    second: Electrod_50
+  - first:
+      213: 7263531344407735182
+    second: Electrod_51
+  - first:
+      213: -2548445925118612860
+    second: Electrod_52
+  - first:
+      213: 5722294941181511552
+    second: Electrod_53
+  - first:
+      213: 2968977494392484952
+    second: Electrod_54
+  - first:
+      213: 3992260551559740114
+    second: Electrod_55
+  - first:
+      213: 6217169689793528561
+    second: Electrod_56
+  - first:
+      213: -6469495304924565937
+    second: Electrod_57
+  - first:
+      213: -5309589304088323064
+    second: Electrod_58
+  - first:
+      213: -6824465035212396059
+    second: Electrod_59
+  - first:
+      213: -4248021808730526575
+    second: Electrod_60
+  - first:
+      213: 4008231731228275549
+    second: Electrod_61
+  - first:
+      213: 2008905548543172858
+    second: Electrod_62
+  - first:
+      213: 167725800354210505
+    second: Electrod_63
+  - first:
+      213: 8378511386093106281
+    second: Electrod_64
+  - first:
+      213: 5004004841144856138
+    second: Electrod_65
+  - first:
+      213: -4490354219288928020
+    second: Electrod_66
+  - first:
+      213: -7624759911685240086
+    second: Electrod_67
+  - first:
+      213: -8376818765715394142
+    second: Electrod_68
+  - first:
+      213: 1596473351293191465
+    second: Electrod_69
+  - first:
+      213: -3218352684922913122
+    second: Electrod_70
+  - first:
+      213: 5532502052454946228
+    second: Electrod_71
+  - first:
+      213: -6978141635440123874
+    second: Electrod_72
+  - first:
+      213: 2044328331901436841
+    second: Electrod_73
+  - first:
+      213: 3229907248876670676
+    second: Electrod_74
+  - first:
+      213: -3921821489459143104
+    second: Electrod_75
+  - first:
+      213: -7778444927844756325
+    second: Electrod_76
+  - first:
+      213: -5160862699127700895
+    second: Electrod_77
+  - first:
+      213: -5048754747768127998
+    second: Electrod_78
+  - first:
+      213: -619698920899332088
+    second: Electrod_79
+  - first:
+      213: 3607301339322986234
+    second: Electrod_80
+  - first:
+      213: -6982168620952828727
+    second: Electrod_81
+  - first:
+      213: 4491827916611312964
+    second: Electrod_82
+  - first:
+      213: 2934023261772842682
+    second: Electrod_83
+  - first:
+      213: -8912225097812234229
+    second: Electrod_84
+  - first:
+      213: -4654021537897908469
+    second: Electrod_85
+  - first:
+      213: 1697376651441090286
+    second: Electrod_86
+  - first:
+      213: 2162525680000964632
+    second: Electrod_87
+  - first:
+      213: -7539294808130687277
+    second: Electrod_88
+  - first:
+      213: -8385778831558948603
+    second: Electrod_89
+  - first:
+      213: -5038751802490727375
+    second: Electrod_90
+  - first:
+      213: 4482349837948023637
+    second: Electrod_91
+  - first:
+      213: 5325113680068110607
+    second: Electrod_92
+  - first:
+      213: -6936321433482906994
+    second: Electrod_93
+  - first:
+      213: 6891948899213359018
+    second: Electrod_94
+  - first:
+      213: -8530637994049292202
+    second: Electrod_95
+  - first:
+      213: -7570623598408474651
+    second: Electrod_96
+  - first:
+      213: 8030401934092937275
+    second: Electrod_97
+  - first:
+      213: -7767135694638905763
+    second: Electrod_98
+  - first:
+      213: -383500437831223424
+    second: Electrod_99
+  - first:
+      213: 7524873682917670251
+    second: Electrod_100
+  - first:
+      213: 8254690170249546115
+    second: Electrod_101
+  - first:
+      213: -7708265827555865038
+    second: Electrod_102
+  - first:
+      213: 2209647176114073608
+    second: Electrod_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Electrod_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7555
+        width: 1013
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99b27503e271a2e0800000000000000
+      internalID: -2116284030512875105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_1
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 7495
+        width: 1013
+        height: 1136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310f2e2aed26eb880800000000000000
+      internalID: -8593322330621284333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_2
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 7494
+        width: 1013
+        height: 1152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98386e73ddb0cb50800000000000000
+      internalID: 6611492969036396700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_3
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 7505
+        width: 1013
+        height: 1143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a9c2486ad250640800000000000000
+      internalID: 5045489150743845491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_4
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 7550
+        width: 1013
+        height: 1108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b169f1f1d288750800000000000000
+      internalID: 6307340889829546764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_5
+      rect:
+        serializedVersion: 2
+        x: 5091
+        y: 7579
+        width: 1013
+        height: 1089
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4201b2d527181020800000000000000
+      internalID: 2312623859870794317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_6
+      rect:
+        serializedVersion: 2
+        x: 6104
+        y: 7498
+        width: 1013
+        height: 1172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f045d9241e031d0e0800000000000000
+      internalID: -2246960995037785073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6243
+        width: 1013
+        height: 1180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085dc380225728af0800000000000000
+      internalID: -395625028227639936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_16
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 6243
+        width: 1013
+        height: 1186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7790199ab5905f70800000000000000
+      internalID: 9173997069618157438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_17
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 6322
+        width: 1013
+        height: 1113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3fab6b5ce4d8cb0800000000000000
+      internalID: -4860141811781667863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_18
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 6281
+        width: 1013
+        height: 1159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376a3c282684998f0800000000000000
+      internalID: -533315492928838029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_19
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 6256
+        width: 1013
+        height: 1190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c911c1dfbf82ddce0800000000000000
+      internalID: -1378900848157126244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_20
+      rect:
+        serializedVersion: 2
+        x: 5087
+        y: 6260
+        width: 1013
+        height: 1192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03376bc82e77bac50800000000000000
+      internalID: 6677562687413973808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_21
+      rect:
+        serializedVersion: 2
+        x: 6104
+        y: 6250
+        width: 1013
+        height: 1208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6462b56866f4c3e80800000000000000
+      internalID: -8197589919961766330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5075
+        width: 1013
+        height: 1136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419bdebee1ad986e0800000000000000
+      internalID: -1834695546834667244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_32
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 5068
+        width: 1013
+        height: 1149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae395e422c14ad00800000000000000
+      internalID: 982941552342548139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_33
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 5009
+        width: 1013
+        height: 1214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1fdf4de47787460800000000000000
+      internalID: 7239667581462639095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_34
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 5002
+        width: 1013
+        height: 1227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5e328f547270c20800000000000000
+      internalID: 3172547643975132594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_35
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 5005
+        width: 1013
+        height: 1230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7501611d96f4de2c0800000000000000
+      internalID: -4400773944973062057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_36
+      rect:
+        serializedVersion: 2
+        x: 5087
+        y: 5047
+        width: 1013
+        height: 1193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de44f87af3cecb710800000000000000
+      internalID: 1710501716632225005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_37
+      rect:
+        serializedVersion: 2
+        x: 6104
+        y: 5061
+        width: 1013
+        height: 1185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8d188e958d7d440800000000000000
+      internalID: 4960671395236403430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_46
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3751
+        width: 1013
+        height: 1251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be6fbbcc9e2618b0800000000000000
+      internalID: -5181903070275080519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_47
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 3744
+        width: 1013
+        height: 1261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13a0f688ee71aef0800000000000000
+      internalID: -98658179664010470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_48
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 3751
+        width: 1013
+        height: 1266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a430c08159f8d30800000000000000
+      internalID: 4435928088496523887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_49
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 3796
+        width: 1013
+        height: 1209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6f5b0f61e236f70800000000000000
+      internalID: 9179231141573818021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_50
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 3810
+        width: 1013
+        height: 1190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e995fe470e74054b0800000000000000
+      internalID: -5453780119385581154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_51
+      rect:
+        serializedVersion: 2
+        x: 5090
+        y: 3737
+        width: 1013
+        height: 1260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ba65e164f3dc460800000000000000
+      internalID: 7263531344407735182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_52
+      rect:
+        serializedVersion: 2
+        x: 6104
+        y: 3748
+        width: 1013
+        height: 1240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a6300fee912acd0800000000000000
+      internalID: -2548445925118612860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_61
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2486
+        width: 1013
+        height: 1244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d537f45e58910a730800000000000000
+      internalID: 4008231731228275549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_62
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 2549
+        width: 1013
+        height: 1175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af02a38e3f011eb10800000000000000
+      internalID: 2008905548543172858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_63
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 2535
+        width: 1013
+        height: 1183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2e7cd0ab1e35200800000000000000
+      internalID: 167725800354210505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_64
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 2469
+        width: 1013
+        height: 1244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96435a2e6b3764470800000000000000
+      internalID: 8378511386093106281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_65
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 2473
+        width: 1013
+        height: 1234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e26c204ebc17540800000000000000
+      internalID: 5004004841144856138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_66
+      rect:
+        serializedVersion: 2
+        x: 5087
+        y: 2490
+        width: 1013
+        height: 1211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce06b93e0ae0fa1c0800000000000000
+      internalID: -4490354219288928020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_67
+      rect:
+        serializedVersion: 2
+        x: 6104
+        y: 2531
+        width: 1013
+        height: 1165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeacc5e02496f2690800000000000000
+      internalID: -7624759911685240086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_77
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1315
+        width: 1013
+        height: 1122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1620ee3f7bee068b0800000000000000
+      internalID: -5160862699127700895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_78
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1218
+        width: 1013
+        height: 1214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20eb63d6e483fe9b0800000000000000
+      internalID: -5048754747768127998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_79
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1194
+        width: 1013
+        height: 1232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8083a106d136667f0800000000000000
+      internalID: -619698920899332088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_80
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 1218
+        width: 1013
+        height: 1202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe2320b475bf0230800000000000000
+      internalID: 3607301339322986234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_81
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 1287
+        width: 1013
+        height: 1128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c44a32e1aa5a1f90800000000000000
+      internalID: -6982168620952828727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_82
+      rect:
+        serializedVersion: 2
+        x: 5087
+        y: 1287
+        width: 1013
+        height: 1122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ddcc101bd265e30800000000000000
+      internalID: 4491827916611312964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_83
+      rect:
+        serializedVersion: 2
+        x: 6104
+        y: 1204
+        width: 1013
+        height: 1199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab604b88c9eb7b820800000000000000
+      internalID: 2934023261772842682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_92
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 1013
+        height: 1145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f096809adaa96e940800000000000000
+      internalID: 5325113680068110607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_93
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 0
+        width: 1013
+        height: 1139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82b25d086c3dbf90800000000000000
+      internalID: -6936321433482906994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_94
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 0
+        width: 1013
+        height: 1133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7b1cb320f15af50800000000000000
+      internalID: 6891948899213359018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_95
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 0
+        width: 1013
+        height: 1128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658bd3111f51d9980800000000000000
+      internalID: -8530637994049292202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_96
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 0
+        width: 1013
+        height: 1122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef5ca8b2fdbfe690800000000000000
+      internalID: -7570623598408474651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrod_97
+      rect:
+        serializedVersion: 2
+        x: 5087
+        y: 0
+        width: 1013
+        height: 1109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38283d1308b17f60800000000000000
+      internalID: 8030401934092937275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4e9dce87e988b9a4cae6873ea4509788
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Electrod_0: -2116284030512875105
+      Electrod_1: -8593322330621284333
+      Electrod_15: -395625028227639936
+      Electrod_16: 9173997069618157438
+      Electrod_17: -4860141811781667863
+      Electrod_18: -533315492928838029
+      Electrod_19: -1378900848157126244
+      Electrod_2: 6611492969036396700
+      Electrod_20: 6677562687413973808
+      Electrod_21: -8197589919961766330
+      Electrod_3: 5045489150743845491
+      Electrod_31: -1834695546834667244
+      Electrod_32: 982941552342548139
+      Electrod_33: 7239667581462639095
+      Electrod_34: 3172547643975132594
+      Electrod_35: -4400773944973062057
+      Electrod_36: 1710501716632225005
+      Electrod_37: 4960671395236403430
+      Electrod_4: 6307340889829546764
+      Electrod_46: -5181903070275080519
+      Electrod_47: -98658179664010470
+      Electrod_48: 4435928088496523887
+      Electrod_49: 9179231141573818021
+      Electrod_5: 2312623859870794317
+      Electrod_50: -5453780119385581154
+      Electrod_51: 7263531344407735182
+      Electrod_52: -2548445925118612860
+      Electrod_6: -2246960995037785073
+      Electrod_61: 4008231731228275549
+      Electrod_62: 2008905548543172858
+      Electrod_63: 167725800354210505
+      Electrod_64: 8378511386093106281
+      Electrod_65: 5004004841144856138
+      Electrod_66: -4490354219288928020
+      Electrod_67: -7624759911685240086
+      Electrod_77: -5160862699127700895
+      Electrod_78: -5048754747768127998
+      Electrod_79: -619698920899332088
+      Electrod_80: 3607301339322986234
+      Electrod_81: -6982168620952828727
+      Electrod_82: 4491827916611312964
+      Electrod_83: 2934023261772842682
+      Electrod_92: 5325113680068110607
+      Electrod_93: -6936321433482906994
+      Electrod_94: 6891948899213359018
+      Electrod_95: -8530637994049292202
+      Electrod_96: -7570623598408474651
+      Electrod_97: 8030401934092937275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

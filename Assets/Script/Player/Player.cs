@@ -1,9 +1,10 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Entity
 {
     [Header("MoveInfo")]
     public float moveSpeed = 12f;
+    public float wallClimbSpeed = 15f;
     public float jumpForce = 10f;
 
 
@@ -42,17 +43,12 @@ public class Player : MonoBehaviour
 
 
 
-    [Header("CollisionInfo")]
-    [SerializeField] Transform groundCheck;
-    [SerializeField] float groundCheckDistances;
-    [SerializeField] Transform wallCheck;
-    [SerializeField] float wallCheckDistances;
-    [SerializeField] LayerMask whatIsGround;
 
-    public Animator anim { get; private set; }
-    public Rigidbody2D rb { get; private set; }
 
+  
     public PlayerStateMachine stateMachine { get; private set; }
+
+ 
 
     public PlayerIdleState idleState { get; private set; }
     public PlayerMoveState moveState { get; private set; }
@@ -64,11 +60,13 @@ public class Player : MonoBehaviour
    // public PlayerShootState shootState { get; private set; }
    
 
-    private void Awake()
+    protected override void Awake()
     {
+
+        base.Awake();
+
         stateMachine = new PlayerStateMachine();
-        // anim =  GetComponentInChildren<Animator>();
-        rb = GetComponent<Rigidbody2D>();
+
         crosshairSprite.enabled = false;
         DistanceJoint.enabled = false;
 
@@ -83,17 +81,20 @@ public class Player : MonoBehaviour
 
     }
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         stateMachine.Initialize(idleState);
         crosshairSprite.enabled = false;
-
+        
     }
 
 
 
-    private void Update()
+    protected override void Update()
     {
+        base.Update();
+
         stateMachine.currentState.Update();
 
         if(Input.GetKeyDown(KeyCode.F))
@@ -109,10 +110,6 @@ public class Player : MonoBehaviour
     {
         rb.velocity = new Vector2(_xvelocity, _yVelocity);
     }
-
-    public bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistances, whatIsGround);
-    public bool IsWallDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right, wallCheckDistances, whatIsGround);
-
     public virtual void FireJelly()
     {
         if (IsGroundDetected())
@@ -134,12 +131,9 @@ public class Player : MonoBehaviour
         }
     }
 
+   
 
-    public void OnDrawGizmos()
-    {
-        Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistances));
-        Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistances, wallCheck.position.y));
-    }
+    
 
 
 

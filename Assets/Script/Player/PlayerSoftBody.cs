@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
 
@@ -22,6 +20,11 @@ public class PlayerSoftBody : MonoBehaviour
     void Update()
     {
         UpdateVertices();
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Debug.Log("reset");
+            ResetVertices();
+        }
     }
 
 
@@ -52,6 +55,15 @@ public class PlayerSoftBody : MonoBehaviour
             spriteShape.spline.SetRightTangent(i, _newRt);
             spriteShape.spline.SetLeftTangent(i, _newLt);
 
+        }
+    }
+
+    public void ResetVertices()
+    {
+        for (int i = 0; i < points.Length - 1; i++)
+        {
+            // Reset each point to its default position
+            spriteShape.spline.SetPosition(i, points[i].localPosition);
         }
     }
 }

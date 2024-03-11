@@ -18,11 +18,11 @@ public class PlayerWallClimbState : PlayerGroundedState
     {
         base.Update();
 
-        if (player.IsWallDetected())
+/*        if (player.IsWallDetected())
         {
             player.SetVelocity(rb.velocity.x, yInput * player.moveSpeed);
 
-        }
+        }*/
 
         if (yInput == 0)
         {

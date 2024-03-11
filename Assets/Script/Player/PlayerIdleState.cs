@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerIdleState : PlayerGroundedState
@@ -30,12 +28,12 @@ public class PlayerIdleState : PlayerGroundedState
             stateMachine.ChangeState(player.aimState);
         }
 
-        if(yInput != 0)
-        {
-            stateMachine.ChangeState(player.climbState);
-        }
+        /* if(yInput != 0)
+         {
+             stateMachine.ChangeState(player.climbState);
+         }*/
 
-       if(xInput != 0)
+        if (xInput != 0)
         {
             stateMachine.ChangeState(player.moveState);
         }
