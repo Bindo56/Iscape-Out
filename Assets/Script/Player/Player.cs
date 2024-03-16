@@ -40,8 +40,9 @@ public class Player : Entity
     public float climbSpeed;
     public bool isColliding;
 
-
-
+    [Header("Points")]
+    public GameObject[] PlayerPoints;
+    public Vector2[] PointsPositions;
 
 
 
@@ -60,6 +61,7 @@ public class Player : Entity
    // public PlayerShootState shootState { get; private set; }
    
 
+
     protected override void Awake()
     {
 
@@ -76,8 +78,14 @@ public class Player : Entity
         airState = new PlayerAirState(stateMachine, this, "Air");
         jumpState = new PlayerJumpState(stateMachine, this, "Jump");
         aimState = new PlayerAimState(stateMachine, this, "aim");
-      //  shootState = new PlayerShootState(stateMachine, this, "shoot");
-       
+        //  shootState = new PlayerShootState(stateMachine, this, "shoot");
+
+        
+        for (int i=0; i<PlayerPoints.Length;i++)
+        {
+            PointsPositions[i] = PlayerPoints[i].gameObject.transform.localPosition;
+        }
+        
 
     }
 
@@ -102,6 +110,7 @@ public class Player : Entity
             FireJelly();
         }
 
+       
     }
 
     
@@ -116,7 +125,7 @@ public class Player : Entity
         {
 
             GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
-            Rigidbody2D rb = projectile.GetComponentInChildren<Rigidbody2D>();
+            Rigidbody2D rb = projectile.GetComponentInChildren<Rigidbody2D>(); 
 
             Vector2 shootDir = (aim.position - shootPoint.position).normalized;
             if (rb != null)

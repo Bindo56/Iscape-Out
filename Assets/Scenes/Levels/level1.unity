@@ -188,8 +188,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.037450016, y: -0.013449907, z: 0}
-    m_Extent: {x: 1.5734501, y: 2.40625, z: 0}
+    m_Center: {x: 0.03824997, y: -0.013399959, z: 0}
+    m_Extent: {x: 1.57435, y: 2.407, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -536,7 +536,7 @@ Transform:
   m_GameObject: {fileID: 172659552}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.085, y: -0.76, z: 0}
+  m_LocalPosition: {x: -16.085, y: -0.5, z: 0}
   m_LocalScale: {x: 0.84432805, y: 0.46687967, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1094,8 +1094,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.2947998, y: -0.07395005, z: 0}
-    m_Extent: {x: 23.0778, y: 3.66255, z: 0}
+    m_Center: {x: 0.2948494, y: -0.073300004, z: 0}
+    m_Extent: {x: 23.07765, y: 3.6623, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1307,7 +1307,7 @@ Transform:
   m_GameObject: {fileID: 560465576}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.989, y: -0.79, z: 0}
+  m_LocalPosition: {x: -8.989, y: -0.511, z: 0}
   m_LocalScale: {x: 0.84432805, y: 0.46687967, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1382,8 +1382,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.008599997, y: -0.008549929, z: 0}
-    m_Extent: {x: 1.5955, y: 2.61815, z: 0}
+    m_Center: {x: 0.008000016, y: -0.00910008, z: 0}
+    m_Extent: {x: 1.5947, y: 2.6184, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1831,8 +1831,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.008599997, y: 0.028000057, z: 0}
-    m_Extent: {x: 1.129, y: 2.0244, z: 0}
+    m_Center: {x: 0.008750021, y: 0.02700001, z: 0}
+    m_Extent: {x: 1.13005, y: 2.0236, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2643,8 +2643,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00055003166, y: 0.007499993, z: 0}
-    m_Extent: {x: 2.84555, y: 0.8415, z: 0}
+    m_Center: {x: -0.0002501011, y: 0.0073499978, z: 0}
+    m_Extent: {x: 2.84585, y: 0.84075, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2727,8 +2727,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.26285076, y: -0.090900004, z: 0}
-    m_Extent: {x: 20.72425, y: 1.7597001, z: 0}
+    m_Center: {x: 0.26309967, y: -0.09109998, z: 0}
+    m_Extent: {x: 20.7246, y: 1.7599, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2843,8 +2843,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.027649999, y: -1.3276, z: 0}
-    m_Extent: {x: 2.5030499, y: 3.9986, z: 0}
+    m_Center: {x: -0.028349996, y: -1.3275999, z: 0}
+    m_Extent: {x: 2.50385, y: 3.9984999, z: 0}
   m_PointLightInnerAngle: 178.54
   m_PointLightOuterAngle: 178.54
   m_PointLightInnerRadius: 0
@@ -3249,8 +3249,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.011900008, y: 0.05435002, z: 0}
-    m_Extent: {x: 1.3968999, y: 1.34365, z: 0}
+    m_Center: {x: 0.011750042, y: 0.05395001, z: 0}
+    m_Extent: {x: 1.3973501, y: 1.3448501, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3721,8 +3721,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.007499993, y: -0.008900046, z: 0}
-    m_Extent: {x: 1.5954001, y: 2.6174998, z: 0}
+    m_Center: {x: 0.00819999, y: -0.008999944, z: 0}
+    m_Extent: {x: 1.5947001, y: 2.6186, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3830,8 +3830,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.020750046, y: -0.3894999, z: 0}
-    m_Extent: {x: 4.92165, y: 4.0615997, z: 0}
+    m_Center: {x: 0.020999908, y: -0.38970006, z: 0}
+    m_Extent: {x: 4.922, y: 4.0619, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4319,6 +4319,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3f3c385336a3e4b96c569767fe2070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  groundCheck: {fileID: 4612851569356712741}
+  groundCheckDistances: 0.75
+  wallCheck: {fileID: 2032374973736061639}
+  wallCheckDistances: 1.06
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
   moveSpeed: 7
   wallClimbSpeed: 10
   jumpForce: 25
@@ -4344,13 +4351,20 @@ MonoBehaviour:
   playerSprite: {fileID: 1009281549304802682}
   climbSpeed: 1
   isColliding: 0
-  groundCheck: {fileID: 4612851569356712741}
-  groundCheckDistances: 0.75
-  wallCheck: {fileID: 2032374973736061639}
-  wallCheckDistances: 1.06
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
+  PlayerPoints:
+  - {fileID: 209526046619475665}
+  - {fileID: 672923793538565726}
+  - {fileID: 7044404140870060755}
+  - {fileID: 4164153026073389312}
+  - {fileID: 716490406546240932}
+  - {fileID: 149549379519386570}
+  PointsPositions:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!212 &1009281549304802682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5731,6 +5745,10 @@ SpriteShapeRenderer:
   m_MaskInteraction: 0
   m_ShapeTexture: {fileID: 2800000, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
   m_Sprites:
+  - {fileID: -2109842188766387306, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
+  - {fileID: -2109842188766387306, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
+  - {fileID: -2109842188766387306, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
+  - {fileID: -2109842188766387306, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
@@ -5740,8 +5758,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   m_LocalAABB:
-    m_Center: {x: 0.11589134, y: 0.009714365, z: 0}
-    m_Extent: {x: 1.6824524, y: 1.6427333, z: 0}
+    m_Center: {x: 0.11588371, y: 0.009714603, z: 0}
+    m_Extent: {x: 1.7281616, y: 1.6884551, z: 0}
   m_SpriteSortPoint: 0
 --- !u!231 &5285971444663874260
 SpringJoint2D:

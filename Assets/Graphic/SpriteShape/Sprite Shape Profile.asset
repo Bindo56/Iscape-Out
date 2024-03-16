@@ -13,10 +13,26 @@ MonoBehaviour:
   m_Name: Sprite Shape Profile
   m_EditorClassIdentifier: 
   m_Angles:
-  - m_Start: -314
-    m_End: 46
+  - m_Start: -44
+    m_End: 45
     m_Order: 0
-    m_Sprites: []
+    m_Sprites:
+    - {fileID: -2109842188766387306, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
+  - m_Start: -137
+    m_End: -44
+    m_Order: 0
+    m_Sprites:
+    - {fileID: -2109842188766387306, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
+  - m_Start: 134
+    m_End: 223
+    m_Order: 0
+    m_Sprites:
+    - {fileID: -2109842188766387306, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
+  - m_Start: 45
+    m_End: 134
+    m_Order: 0
+    m_Sprites:
+    - {fileID: -2109842188766387306, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
   m_FillTexture: {fileID: 2800000, guid: 9f7acd9982acc944abf2ea05508d9a17, type: 3}
   m_CornerSprites:
   - m_CornerType: 0
@@ -43,5 +59,5 @@ MonoBehaviour:
   - m_CornerType: 7
     m_Sprites:
     - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
-  m_FillOffset: 0.167
-  m_UseSpriteBorders: 1
+  m_FillOffset: -0.098
+  m_UseSpriteBorders: 0
