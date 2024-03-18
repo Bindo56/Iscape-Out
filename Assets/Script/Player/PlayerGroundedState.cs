@@ -9,14 +9,7 @@ public class PlayerGroundedState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        if (player.IsGroundDetected())
-        {
-            for (int i = 0; i < player.PlayerPoints.Length; i++)
-            {
-                 player.PlayerPoints[i].gameObject.transform.localPosition = player.PointsPositions[i];//settting points positions
-            }
-            //false
-        }
+        
     }
 
     public override void Exit()

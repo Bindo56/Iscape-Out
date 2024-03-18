@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class GrapplingGun : MonoBehaviour
@@ -39,6 +40,7 @@ public class GrapplingGun : MonoBehaviour
     [SerializeField] private bool launchToPoint = true;
     [SerializeField] private LaunchType launchType = LaunchType.Physics_Launch;
     [SerializeField] private float launchSpeed = 1;
+    [SerializeField] private float maxlenght = 2.5f;
 
     [Header("No Launch To Point")]
     [SerializeField] private bool autoConfigureDistance = false;
@@ -77,10 +79,36 @@ public class GrapplingGun : MonoBehaviour
             {
                 if (launchType == LaunchType.Transform_Launch)
                 {
+                    
+
                     Debug.Log("launch");
                     Vector2 firePointDistnace = firePoint.position - gunHolder.localPosition;
                     Vector2 targetPos = grapplePoint - firePointDistnace;
-                    gunHolder.position = Vector2.Lerp(gunHolder.position,  grapplePoint , Time.deltaTime *  launchSpeed); //change to targetpos into grapllepoint ,can use vector2.movetoward
+                   // gunHolder.position = Vector2.Lerp(gunHolder.position,  grapplePoint , Time.deltaTime *  launchSpeed); //change to targetpos into grapllepoint ,can use vector2.movetoward
+
+                  
+                   float distance = Vector2.Distance(gunHolder.position,grapplePoint);
+                    Debug.Log(distance);
+
+                    if(distance > maxlenght)
+                    {
+                        bool grapple = true;
+                        if (grapple)
+                        {
+                            Debug.Log("going");
+                            gunHolder.position = Vector2.MoveTowards(gunHolder.position, grapplePoint, Time.deltaTime * launchSpeed);
+
+                           
+                        } 
+
+
+
+                    }
+                    
+                    
+                    
+                    
+
                     
                 }
             }
@@ -100,6 +128,9 @@ public class GrapplingGun : MonoBehaviour
             RotateGun(mousePos, true);
         }
     }
+
+
+   
 
     void RotateGun(Vector3 lookPoint, bool allowRotationOverTime)
     {

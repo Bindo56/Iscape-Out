@@ -10,6 +10,16 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Enter();
         player.crosshairSprite.enabled = false;
+        if (player.IsGroundDetected())
+        {
+
+            for (int i = 0; i < player.PlayerPoints.Length; i++)
+            {
+                player.PlayerPoints[i].gameObject.transform.localPosition = player.PointsPositions[i];//settting points positions
+                Debug.Log("resetShape");
+            }
+            //false
+        }
     }
 
     public override void Exit()
