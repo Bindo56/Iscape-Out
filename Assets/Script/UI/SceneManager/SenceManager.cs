@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SenceManager : MonoBehaviour
 {
@@ -21,8 +20,8 @@ public class SenceManager : MonoBehaviour
         {
             if (collision.GetComponent<Player>() != null)
             {
-                Debug.Log("change");
-                SceneManager.LoadScene(sceneNO);
+                LevelManager.Instance.LoadScene("Level2", "CrossFade");
+
 
             }
         }

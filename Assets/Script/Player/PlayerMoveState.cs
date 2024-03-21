@@ -26,13 +26,43 @@ public class PlayerMoveState : PlayerGroundedState
             stateMachine.ChangeState(player.aimState);
         }
      
+
+        if(player.grapplingRope.isGrappling)
+        {
+          player.SetVelocity(xInput * 8, yInput * 8);
+
+        }
+       /* else
+        {
+          player.SetVelocity(xInput * 8, rb.velocity.y);
+
+        }*/
             Debug.Log("move");
-        
-        player.SetVelocity(xInput * player.moveSpeed, rb.velocity.y);
+
+        if(!player.IsGroundDetected() && !player.IsWallDetected())
+        {
+            rb.gravityScale = 15;
+        }
+
+        if (player.IsGroundDetected())
+        {
+            Debug.Log("move1");
+          //  player.SetVelocity(xInput * player.moveSpeed, yInput * player.wallClimbSpeed);
+
+          player.SetVelocity(xInput * player.moveSpeed, rb.velocity.y);
+        }
+
+         if (player.IsWallDetected() && player.IsGroundDetected())
+        {
+            Debug.Log("wallmove1");
+
+            player.SetVelocity(xInput * player.moveSpeed, yInput * player.wallClimbSpeed);
+
+        }
 
         if (player.IsWallDetected())
         {
-            player.SetVelocity(rb.velocity.x, yInput * player.wallClimbSpeed);
+            player.SetVelocity(xInput * player.moveSpeed, yInput * player.wallClimbSpeed);
 
         }
 

@@ -20,7 +20,7 @@ public class GrapplingGun : MonoBehaviour
 
     [Header("Physics Ref:")]
     public SpringJoint2D m_springJoint2D;
-    public Rigidbody2D m_rigidbody;
+    public Rigidbody2D[] m_rigidbody;
 
     [Header("Rotation:")]
     [SerializeField] private bool rotateOverTime = true;
@@ -88,7 +88,7 @@ public class GrapplingGun : MonoBehaviour
 
                   
                    float distance = Vector2.Distance(gunHolder.position,grapplePoint);
-                    Debug.Log(distance);
+                  //  Debug.Log(distance);
 
                     if(distance > maxlenght)
                     {
@@ -98,7 +98,17 @@ public class GrapplingGun : MonoBehaviour
                             Debug.Log("going");
                             gunHolder.position = Vector2.MoveTowards(gunHolder.position, grapplePoint, Time.deltaTime * launchSpeed);
 
-                           
+                            /*if (Input.GetAxis("Vertical") >= 1f && grappleRope.isGrappling)
+                            {
+                                m_springJoint2D.distance -= Time.deltaTime * 4;
+
+                            }
+                            else if (Input.GetAxis("Vertical") < 0f && grappleRope.isGrappling)
+                            {
+                                m_springJoint2D.distance += Time.deltaTime * 4;
+                            }*/
+
+
                         } 
 
 
@@ -117,7 +127,17 @@ public class GrapplingGun : MonoBehaviour
         {
             grappleRope.enabled = false;
             m_springJoint2D.enabled = false;
-            m_rigidbody.gravityScale = 1;
+
+
+            for (int i = 0; i < m_rigidbody.Length; i++)
+            {
+                m_rigidbody[i].gravityScale = 2.5f;//chnge
+                m_rigidbody[i].mass = 3f;//chnge
+              // m_rigidbody[i].velocity = Vector2.zero;
+
+            }
+
+           // m_rigidbody.gravityScale = 3;
           
            
 
@@ -200,8 +220,16 @@ public class GrapplingGun : MonoBehaviour
                     m_springJoint2D.enabled = true;
                     break;
                 case LaunchType.Transform_Launch:
-                    m_rigidbody.gravityScale = 0f;//chnge
-                    m_rigidbody.velocity = Vector2.zero;
+
+                    for (int i = 0; i <  m_rigidbody.Length;i++)
+                    {
+                        
+                        m_rigidbody[i].gravityScale = 0.5f;//chnge
+                      m_rigidbody[i].mass = 2f;//chnge
+                     // m_rigidbody[i].velocity = Vector2.zero;
+
+                    }
+
                     break;
             }
         }

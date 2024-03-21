@@ -6,34 +6,37 @@ public class EnemyState
 {
 
     protected EnemyStateMachine stateMachine;
-    protected Enemies enemy;
+    protected Enemies enemyBase;
+
+    protected Rigidbody2D rb;   
 
     protected float stateTimer;
     protected bool triggerCalled;
     private string animBoolName;
 
-    public EnemyState(Enemies _enemy, EnemyStateMachine _stateMachine, string _animBoolName)
+    public EnemyState(Enemies _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, ElectrodEnemy _enemy)
     {
-        this.enemy = _enemy;
+        this.enemyBase = _enemyBase;
         this.stateMachine = _stateMachine;
         this.animBoolName = _animBoolName;
     }
 
-    public void Update()
+    public virtual void Update()
     {
 
 
     }
 
-    public void Enter()
+    public virtual void Enter()
     {
         triggerCalled = false;
-        enemy.anim.SetBool(animBoolName, true);
+        rb = enemyBase.rb;
+      //  enemyBase.anim.SetBool(animBoolName, true);
     }
 
-    public void Exit()
+    public virtual void Exit()
     {
-        enemy.anim.SetBool(animBoolName, false);
+       // enemyBase.anim.SetBool(animBoolName, false);
 
     }
 

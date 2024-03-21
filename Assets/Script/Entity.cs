@@ -13,6 +13,8 @@ public class Entity : MonoBehaviour
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
 
+    
+
     protected virtual void Awake()
     {
 
@@ -30,7 +32,7 @@ public class Entity : MonoBehaviour
 
     }
     public virtual bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistances, whatIsGround);
-    public virtual bool IsWallDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right, wallCheckDistances, whatIsGround);
+    public virtual bool IsWallDetected() => Physics2D.Raycast(wallCheck.position , Vector2.right, wallCheckDistances, whatIsGround);
 
 
 
@@ -39,4 +41,6 @@ public class Entity : MonoBehaviour
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistances));
         Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistances, wallCheck.position.y));
     }
+
+    
 }

@@ -19,22 +19,9 @@ public class Player : Entity
     public float shootForce;
 
 
-    [Header("Grapling")]
-    public GameObject RopeHinge;
-    public DistanceJoint2D DistanceJoint;
-  
-    public bool ropeAttached;
-    public bool distanceSet;
-    public Vector2 playerPosition;
-    public Rigidbody2D ropeHingeRB;
-    public SpriteRenderer ropeHingeSR;
-    public LineRenderer RopeRnder;
-    public LayerMask ropeLayer;
-    [SerializeField] public float ropeDistance = 20f;
-
-    [Header("Swing")]
-    public bool isSwinging;
-    public SpriteRenderer playerSprite;
+   [HideInInspector] public float resizePlayer;
+    [Header("Resize")]
+    public float crouchSize = 0.2f;
 
     [Header("RopeClimb")]
     public float climbSpeed;
@@ -45,8 +32,13 @@ public class Player : Entity
     public Vector2[] PointsPositions;
 
 
+    [Header("Crouch")]
+    public GameObject[] CrouchPlayerPoints;
+    public Vector2[] CrouchPointsPositions;
 
-  
+    public GrapplingRope grapplingRope;
+
+
     public PlayerStateMachine stateMachine { get; private set; }
 
  
@@ -57,6 +49,7 @@ public class Player : Entity
     public PlayerAirState airState { get; private set; }
     public PlayerJumpState jumpState { get; private set; }
     public PlayerAimState aimState { get; private set; }
+    public PlayerResizeState resizeState { get; private set; }
 
    // public PlayerShootState shootState { get; private set; }
    
@@ -70,7 +63,7 @@ public class Player : Entity
         stateMachine = new PlayerStateMachine();
 
         crosshairSprite.enabled = false;
-        DistanceJoint.enabled = false;
+       // DistanceJoint.enabled = false;
 
         idleState = new PlayerIdleState(stateMachine, this, "Idle");
         moveState = new PlayerMoveState(stateMachine, this, "Move");
@@ -78,23 +71,30 @@ public class Player : Entity
         airState = new PlayerAirState(stateMachine, this, "Air");
         jumpState = new PlayerJumpState(stateMachine, this, "Jump");
         aimState = new PlayerAimState(stateMachine, this, "aim");
+        resizeState = new PlayerResizeState(stateMachine, this, "Idle");
+
         //  shootState = new PlayerShootState(stateMachine, this, "shoot");
 
-        
-        for (int i=0; i<PlayerPoints.Length;i++)
+        for (int i = 0; i < PlayerPoints.Length; i++)
         {
             PointsPositions[i] = PlayerPoints[i].gameObject.transform.localPosition;
         }
-        
+
 
     }
+
+
+    
 
     protected override void Start()
     {
         base.Start();
         stateMachine.Initialize(idleState);
         crosshairSprite.enabled = false;
-        
+
+
+       
+
     }
 
 
@@ -103,12 +103,33 @@ public class Player : Entity
     {
         base.Update();
 
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+
+
+            transform.localScale -= new Vector3(resizePlayer, resizePlayer, 0f) * Time.deltaTime;
+            transform.localScale = Vector3.Min(transform.localScale, new Vector3(crouchSize, crouchSize, 0f));
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            transform.localScale += new Vector3(resizePlayer, resizePlayer, 0f) * Time.deltaTime;
+            transform.localScale = Vector3.Max(transform.localScale, new Vector3(0.5f, 0.5f, 0f));
+            stateMachine.ChangeState(idleState);
+        }
+
         stateMachine.currentState.Update();
 
         if(Input.GetKeyDown(KeyCode.F))
         {
             FireJelly();
         }
+
+       /* if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            stateMachine.ChangeState(resizeState);
+        }*/
 
        
     }
