@@ -28,6 +28,8 @@ public class Enemies : MonoBehaviour
     public int facingDir { get; private set; } = 1;
     public bool facingRight = true;
 
+  
+
     public EnemyStateMachine stateMachine {  get; private set; }
 
     public Animator anim { get; private set; }
@@ -56,6 +58,7 @@ public class Enemies : MonoBehaviour
     }
 
     public virtual bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistances, whatIsGround);
+    
     public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(enemyEyes.position, Vector2.right * -facingDir, attackDistance, whatIsPlayer);
     public virtual bool EnemyisWallDetected() => Physics2D.Raycast(EnemywallCheck.position, Vector2.right * facingDir, enemywallCheckDist, EnemywhatIsGround);
 
@@ -83,6 +86,7 @@ public class Enemies : MonoBehaviour
     protected virtual void OnDrawGizmos()
     {
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistances));
+      
         Gizmos.DrawLine(EnemywallCheck.position, new Vector3(EnemywallCheck.position.x + enemywallCheckDist, EnemywallCheck.position.y));
         Gizmos.color = Color.yellow;
         Gizmos.DrawLine(enemyEyes.position, new Vector3(enemyEyes.position.x * attackDistance * facingDir, enemyEyes.position.y));

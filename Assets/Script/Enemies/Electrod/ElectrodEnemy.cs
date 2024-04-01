@@ -8,6 +8,8 @@ public class ElectrodEnemy : Enemies
     public ElecltrodIdleState idleState {  get; private set; }
     public ElectrodBattleState battleState { get; private set; }
 
+ 
+
     protected override void Awake()
     {
         base.Awake();
@@ -15,6 +17,7 @@ public class ElectrodEnemy : Enemies
         idleState = new ElecltrodIdleState(this,stateMachine,"Idle",this);
         moveState = new ElectrodMoveState(this, stateMachine, "Move",this);
         battleState = new ElectrodBattleState(this, stateMachine, "Move", this);
+      
 
     }
 

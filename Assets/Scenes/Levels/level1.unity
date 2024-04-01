@@ -1483,8 +1483,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.008000016, y: -0.00910008, z: 0}
-    m_Extent: {x: 1.5955, y: 2.6177, z: 0}
+    m_Center: {x: 0.008099973, y: -0.00849998, z: 0}
+    m_Extent: {x: 1.595, y: 2.6181002, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2479,6 +2479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5768984334335948470, guid: d9df9898c492eba4fbc8126df28a2a1b, type: 3}
+      propertyPath: m_camera
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 8860536572464894271, guid: d9df9898c492eba4fbc8126df28a2a1b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.13
@@ -3902,8 +3906,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.008549988, y: -0.008749962, z: 0}
-    m_Extent: {x: 1.5954499, y: 2.61695, z: 0}
+    m_Center: {x: 0.008450031, y: -0.00940001, z: 0}
+    m_Extent: {x: 1.59575, y: 2.6172, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

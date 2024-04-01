@@ -26,7 +26,9 @@ public class ElectrodMoveState : ElectrodGroundedState
 
         if (enemy.EnemyisWallDetected())
         {
+            
             // enemy.transform.Rotate(0, 180, 0);
+           // enemy.SlimeControlMovement.facingRight = false;
             enemy.flip();
             stateMachine.ChangeState(enemy.idleState);
 
@@ -34,6 +36,8 @@ public class ElectrodMoveState : ElectrodGroundedState
 
         if (enemy.IsGroundDetected())
         {
+           
+           // enemy.SlimeControlMovement.facingRight = true;
             enemy.flip();
             stateMachine.ChangeState(enemy.idleState);
         }

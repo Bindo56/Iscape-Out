@@ -23,5 +23,11 @@ public class DestroyEnemy : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
+        else if (collision.gameObject.CompareTag("Player"))
+        {
+            LevelManager.Instance.LoadScene("Level2", "CrossFade");
+        }
     }
+
+
 }

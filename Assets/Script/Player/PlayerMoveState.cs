@@ -9,7 +9,7 @@ public class PlayerMoveState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
-        player.crosshairSprite.enabled = false;
+      //  player.crosshairSprite.enabled = false;
     }
 
     public override void Exit()
@@ -21,10 +21,7 @@ public class PlayerMoveState : PlayerGroundedState
     {
         base.Update();
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            stateMachine.ChangeState(player.aimState);
-        }
+      
      
 
         if(player.grapplingRope.isGrappling)

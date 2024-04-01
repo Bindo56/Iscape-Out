@@ -8,7 +8,7 @@ public class Entity : MonoBehaviour
     [SerializeField] protected Transform wallCheck;
     [SerializeField]  protected float wallCheckDistances;
     [SerializeField] protected LayerMask whatIsGround;
-
+    [SerializeField] protected Vector2 groundchecksize;
 
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
@@ -31,14 +31,16 @@ public class Entity : MonoBehaviour
     {
 
     }
-    public virtual bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistances, whatIsGround);
+ 
     public virtual bool IsWallDetected() => Physics2D.Raycast(wallCheck.position , Vector2.right, wallCheckDistances, whatIsGround);
+    public virtual bool IsGroundDetected() => Physics2D.BoxCast(groundCheck.position, groundchecksize, 0, Vector2.down, whatIsGround);
 
 
 
     protected virtual void OnDrawGizmos()
     {
-        Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistances));
+        Gizmos.DrawWireCube(groundCheck.position, groundchecksize);
+       
         Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistances, wallCheck.position.y));
     }
 

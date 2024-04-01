@@ -9,7 +9,7 @@ public class PlayerJumpState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        player.crosshairSprite.enabled = false;
+        //player.crosshairSprite.enabled = false;
 
         rb.velocity = new Vector2(rb.velocity.x, player.jumpForce);
     }

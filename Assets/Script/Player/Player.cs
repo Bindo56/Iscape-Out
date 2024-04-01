@@ -8,15 +8,14 @@ public class Player : Entity
     public float jumpForce = 10f;
 
 
-    [Header("Aim")]
-    public Transform crosshair;
-    public SpriteRenderer crosshairSprite;
+   
 
     [Header("ShootJelly")]
     public GameObject projectilePrefab;
     public Transform shootPoint;
     public Transform aim;
     public float shootForce;
+   
 
 
    [HideInInspector] public float resizePlayer;
@@ -62,7 +61,7 @@ public class Player : Entity
 
         stateMachine = new PlayerStateMachine();
 
-        crosshairSprite.enabled = false;
+       // crosshairSprite.enabled = false;
        // DistanceJoint.enabled = false;
 
         idleState = new PlayerIdleState(stateMachine, this, "Idle");
@@ -90,7 +89,7 @@ public class Player : Entity
     {
         base.Start();
         stateMachine.Initialize(idleState);
-        crosshairSprite.enabled = false;
+        //crosshairSprite.enabled = false;
 
 
        
@@ -121,17 +120,11 @@ public class Player : Entity
 
         stateMachine.currentState.Update();
 
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-            FireJelly();
-        }
-
-       /* if(Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            stateMachine.ChangeState(resizeState);
-        }*/
-
        
+
+      
+
+
     }
 
     
@@ -160,10 +153,10 @@ public class Player : Entity
             }
         }
     }
+  
 
-   
 
-    
+
 
 
 

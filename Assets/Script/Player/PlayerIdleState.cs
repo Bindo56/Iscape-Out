@@ -9,7 +9,7 @@ public class PlayerIdleState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
-        player.crosshairSprite.enabled = false;
+      //  player.crosshairSprite.enabled = false;
       
     }
 
@@ -24,10 +24,7 @@ public class PlayerIdleState : PlayerGroundedState
 
         Debug.Log("idle");
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            stateMachine.ChangeState(player.aimState);
-        }
+       
 
         /* if(yInput != 0)
          {

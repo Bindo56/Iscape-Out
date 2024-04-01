@@ -4,20 +4,30 @@ using UnityEngine;
 
 public class SlimeControlMovement : MonoBehaviour
 {
-    [SerializeField] Rigidbody2D rb;
+    [SerializeField] Rigidbody2D rb1;
+    [SerializeField] SlimeController controller;
     float inputX;
    
+
     [SerializeField] float moveSpeed;
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb1 = GetComponent<Rigidbody2D>();
+       
+       controller = GetComponent<SlimeController>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         inputX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(moveSpeed * inputX, rb.velocity.y);
+        rb1.velocity = new Vector2(moveSpeed * inputX , rb1.velocity.y);
+
+        controller.flipController(inputX);
+        
     }
+
+  
 }
