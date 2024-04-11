@@ -3343,8 +3343,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.012650013, y: 0.067849874, z: 0}
-    m_Extent: {x: 13.403351, y: 4.48335, z: 0}
+    m_Center: {x: 0.013700008, y: 0.068449974, z: 0}
+    m_Extent: {x: 13.4034, y: 4.48315, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -9085,9 +9085,29 @@ PrefabInstance:
       propertyPath: m_Creator
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2989642699454864312, guid: d9df9898c492eba4fbc8126df28a2a1b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989642699454864312, guid: d9df9898c492eba4fbc8126df28a2a1b, type: 3}
+      propertyPath: m_Parameters.shadowBias
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989642699454864312, guid: d9df9898c492eba4fbc8126df28a2a1b, type: 3}
+      propertyPath: m_Parameters.textureScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989642699454864312, guid: d9df9898c492eba4fbc8126df28a2a1b, type: 3}
+      propertyPath: m_Parameters.textureScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3794264018578383139, guid: d9df9898c492eba4fbc8126df28a2a1b, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350777426507216606, guid: d9df9898c492eba4fbc8126df28a2a1b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5768984334335948470, guid: d9df9898c492eba4fbc8126df28a2a1b, type: 3}
       propertyPath: m_camera

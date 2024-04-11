@@ -30,6 +30,8 @@ public class GrapplingGun : MonoBehaviour
     [SerializeField] private bool hasMaxDistance = false;
     [SerializeField] private float maxDistnace = 20;
 
+   
+
     private enum LaunchType
     {
         Transform_Launch,
@@ -98,10 +100,15 @@ public class GrapplingGun : MonoBehaviour
                             Debug.Log("going");
                             gunHolder.position = Vector2.MoveTowards(gunHolder.position, grapplePoint, Time.deltaTime * launchSpeed);
 
+
+
+                           
+                          
+
                             /*if (Input.GetAxis("Vertical") >= 1f && grappleRope.isGrappling)
                             {
                                 m_springJoint2D.distance -= Time.deltaTime * 4;
-
+                                
                             }
                             else if (Input.GetAxis("Vertical") < 0f && grappleRope.isGrappling)
                             {
@@ -203,7 +210,7 @@ public class GrapplingGun : MonoBehaviour
                 m_springJoint2D.frequency = 0;
             }
 
-            m_springJoint2D.connectedAnchor = grapplePoint;
+            m_springJoint2D.connectedAnchor = grapplePoint; //mark
             m_springJoint2D.enabled = true;
         }
         else

@@ -474,7 +474,7 @@ LineRenderer:
     numCapVertices: 10
     alignment: 0
     textureMode: 0
-    textureScale: {x: 1, y: 1}
+    textureScale: {x: 0.3, y: 0.3}
     shadowBias: 0.5
     generateLightingData: 0
   m_MaskInteraction: 0
@@ -2129,13 +2129,13 @@ SpringJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 1
-  m_ConnectedRigidBody: {fileID: 6409706958427698968}
+  m_ConnectedRigidBody: {fileID: 4353895683995347082}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.1154025, y: 0.38870096}
+  m_ConnectedAnchor: {x: 0.00000010243002, y: 0.000000013448755}
   m_AutoConfigureDistance: 0
   m_Distance: 0.5905952
   m_DampingRatio: 1
@@ -2823,7 +2823,7 @@ Transform:
   m_GameObject: {fileID: 8292364709239305952}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.059, y: 0.06, z: 0}
+  m_LocalPosition: {x: 0.1056, y: -0.07, z: 0}
   m_LocalScale: {x: 0.97052485, y: 1.1679, z: 1.1679}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2981,6 +2981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 777910656055839223}
   - component: {fileID: 6788049433004373915}
+  - component: {fileID: 4353895683995347082}
   m_Layer: 3
   m_Name: GunPivot
   m_TagString: Untagged
@@ -3058,3 +3059,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &4353895683995347082
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8348979227624878060}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
